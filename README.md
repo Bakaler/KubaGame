@@ -11,7 +11,8 @@ the classes as the 3 work together almost entirely.
 # Classes
     
 Marble
-    The marble class represents a marble on the board
+
+   The marble class represents a marble on the board
     Each marble in play is a node that references another marble on the board
     When marbles are knocked out of play, they are removed from the linked list (Forever...)
 
@@ -27,7 +28,8 @@ Marble
     KobaGame class when being moved around the board class
     
 Board
-    The board class represents a board object that a game of Kuba is played out on.
+
+   The board class represents a board object that a game of Kuba is played out on.
     The board is responsible for:
         Initializing a linked list of Marbles
         Tracking physical location of Marbles
